@@ -19,7 +19,6 @@ generate "provider" {
   provider "aws" {
     profile = "default"
     region  = "eu-central-1"
-    shared_credentials_file = "/Users/rwagh/credentials"
   }
 EOF
 }

@@ -6,7 +6,7 @@ resource "aws_instance" "ec2_module_2" {
 
     ami = var.ami_id
     instance_type = var.web_instance_type
-    key_name= "aws_key"
+    key_name= "demo"
     vpc_security_group_ids = [aws_security_group.main.id]
 
   user_data = <<-EOF

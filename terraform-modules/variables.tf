@@ -1,7 +1,7 @@
 variable "web_region" {
   type        = string
   description = "Region of Project"
-  default     = "eu-central-1"
+  default     = "us-east-1"
 }
 variable "web_instance_type" {
   type        = string
